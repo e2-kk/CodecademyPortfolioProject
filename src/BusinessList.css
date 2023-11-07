@@ -1,0 +1,10 @@
+
+
+.BusinessArray {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5rem 15rem 20rem;
+  align-items: center;
+ 
+}
