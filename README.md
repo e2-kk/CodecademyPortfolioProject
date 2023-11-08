@@ -1,5 +1,6 @@
 # CodecademyPortfolioProject
 This is my 1st portfolio project in React that will display restaurants based on user entered category and location using Yelp API.
+The source code for the project can be found in master branch in src folder.
 
 So far implemented features:
   The website allows users to scroll up and down to navigate through its content.
