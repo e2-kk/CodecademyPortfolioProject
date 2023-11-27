@@ -7,6 +7,8 @@ So far implemented features:
   Users can simulate a search by typing in the search bar.
   A list of mock restaurant data is presented to the user.
   Restaurant data is transfered between components using props.
+  Cousine, Cousine's Location and Cousine Sort Type are now displayed in javascript console after clciking on Search button. 
+  Sorting Options change colour when the user clicks on them.
 
 Project's Tech Stack:
   HTML, CSS, JavaScript
