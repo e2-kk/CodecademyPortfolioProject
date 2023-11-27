@@ -21,6 +21,9 @@ const business = {
   const businesses = [business, business, business, business, business, business];
 
 function App() {
+  const searchYelp = (cousine, location, option) => {
+    console.log(`Searching Yelp with ${cousine}, ${location}, ${option}`);
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -29,7 +32,7 @@ function App() {
       
       </header>
      
-      <SearchBar/>
+      <SearchBar searchYelp={searchYelp}/>
       <div className='BusinessList'>
       <BusinessList businesses = {businesses}/>
       </div>

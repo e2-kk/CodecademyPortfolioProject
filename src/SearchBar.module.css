@@ -16,39 +16,46 @@
 .SortingOptions {
         
         justify-content: center;
-        
-       
-        
+        align-items: center;     
 }
 
+.SortingOptions li:hover {
+    color: #d4cfcf;
+}
 
 
 .ListOptions {
    
     margin-top: 0;
-    column-gap: 5rem;
+    column-gap: 2rem;
     display: flex;
-    margin-bottom: 0;
+    
     justify-content: center;
     align-items: center;
     color: aliceblue;
     list-style-type: none;
     font-weight: bold;
     font-size: medium;
-    width: 90%;
-    
-    
+    width: 80%;
+    margin: 0;
     
     
 }
 
-.InputsContainer {
+.ListOptions li.active,
+.ListOptions li.active:hover {
+  
+  color: #cca353;
+}
 
-    
+.InputsContainer {
     color-scheme: 5rem;
     height: 3rem;
-    width: 100%;
+    width: 80%;
     margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    
     
     
 }
@@ -75,12 +82,7 @@
 
 }
 
-.SearchButton {
 
-    
-    
-    
-}
 
 .SearchButtonContainer {
     margin-top: 4rem;
@@ -93,12 +95,22 @@
     height: 7%;
     padding-top: 0.8rem;
     padding-bottom: 0.2rem;
+    align-items: center;
+    justify-content: center;
     
 }
 
+
+
 .line {
-    width: 37%;
+    width: 30%;
     margin-top: 0.5rem;
     margin-bottom: 3.7rem;
-    margin-right: 29rem;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
 }
+
