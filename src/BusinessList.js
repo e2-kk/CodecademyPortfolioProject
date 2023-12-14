@@ -12,7 +12,7 @@ const BusinessList = ({ businesses }) => {
     return (
       <div className="BusinessArray">
         {businesses.map((business) => {
-          return <Business business={business} key={business.name} />;
+          return <Business business={business} key={business.id} />;
         })}
       </div>
     );

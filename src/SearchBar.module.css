@@ -114,3 +114,90 @@
     
 }
 
+@media all and (max-width: 500px) {
+    .BusineesSearchContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url(background_search_mobile.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+       
+       }
+       .ListOptions {
+   
+        margin-top: 3rem;
+        column-gap: 2rem;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: medium;
+        width: 80%;
+        margin: 0;
+        font-size: 10pt;
+        
+    }
+
+    .line {
+        width: 95%;
+        margin-top: 0.5rem;
+        margin-bottom: 3.7rem;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+.InputsContainer {
+    color-scheme: 5rem;
+    height: 3rem;
+    width: 80%;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.BusinessField {
+    width: 40%;
+    height: 70%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 0 10px;
+}
+
+.LocationField {
+
+    width: 40%;
+    height: 70%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0 10px;
+    
+
+}
+.SearchButtonContainer {
+    margin-top: 2rem;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: medium;
+    background: #cca353;
+    border-radius: 0.5rem;
+    width: 18%;
+    height: 9%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+}

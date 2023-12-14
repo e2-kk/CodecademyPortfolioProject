@@ -4,6 +4,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 5rem 28rem 28rem;
-  align-items: center;
+  margin-top: 8rem;
+  margin-left: 10%;
+  margin-right:10%;
+
+  
+  
+
+}
+
+@media all and (max-width: 500px) { 
+  .BusinessArray {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+
+}
 }

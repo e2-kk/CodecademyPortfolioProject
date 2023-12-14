@@ -7,7 +7,7 @@ const Business = ({ business }) => {
     return (
       <div className='Business'>
         <div className='imageContainer'>
-          <img src={business.image} alt="" />
+          <img src={business.imageSrc} alt="" />
         </div>
         <h2>{business.name}</h2>
         <div className='BusinessInformation'>
