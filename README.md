@@ -12,7 +12,6 @@ Before looking up restaurants with the app:
 So far implemented features:
   The website allows users to scroll up and down to navigate through its content.
   Users can simulate a search by typing in the search bar.
-  A list of mock restaurant data is presented to the user.
   Restaurant data is transfered between components using props.
   Sorting Options change colour when the user clicks on them.
   Users can query for a restaurant based on their location, and sort it by best match, highest rated, and most reviewed.
