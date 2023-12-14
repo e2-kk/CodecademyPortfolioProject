@@ -5,7 +5,7 @@ The source code for the project can be found in master branch in src folder.
 Before looking up restaurants with the app:
   Create a developer account on YELP's API website https://www.yelp.com/login?return_url=%2Fdevelopers%2Fv3%2Fmanage_app
   Obtain the API key for the app from YELP's API website
-  Paste the key to the variable apiKey in 
+  Paste the key to the variable apiKey in /src/utils/api.js
   Before pressing search button, enable YELP's API by clicking “Request temporary access to the demo server” on https://cors-    anywhere.herokuapp.com/corsdemo
 
 So far implemented features:
